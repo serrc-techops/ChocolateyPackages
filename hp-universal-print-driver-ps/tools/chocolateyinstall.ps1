@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageName    = 'hp-universal-print-driver-ps' 
-$url            = 'https://ftp.hp.com/pub/softlib/software13/COL40842/ds-99375-23/upd-ps-x32-7.0.0.24832.exe'
-$checksum       = '6FE7E92692BC66AAA3039CD933910F04D717DFCC65A77B125A0400C2B8F62175'
-$url64          = 'https://ftp.hp.com/pub/softlib/software13/COL40842/ds-99376-23/upd-ps-x64-7.0.0.24832.exe'
-$checksum64     = 'D291D00D9162A76101D307FF531D1CB0FB675A37A97FEF9E695A6400871DC2EE'
+$url            = 'https://ftp.hp.com/pub/softlib/software13/COL40842/ds-99375-24/upd-ps-x32-7.0.1.24923.exe'
+$checksum       = '7BD421A3971AB00E3AB205FF28529D4D9E55556A45F34337962681E62638BECE'
+$url64          = 'https://ftp.hp.com/pub/softlib/software13/COL40842/ds-99376-24/upd-ps-x64-7.0.1.24923.exe'
+$checksum64     = 'D4A40A474D39C749C55396DCD8BB8E9AA00C7D69AC19A467920DF74DCBC208B6'
 $softwareName   = ''
 $fileLocation   = "$toolsDir\unzippedfiles\install.exe"
 
